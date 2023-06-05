@@ -12,7 +12,7 @@ const HeaderCardButton = (props) => {
             <span>
                 YourCart
             </span>
-            <span className={Classes.badge}> 0 </span>
+            <span className={Classes.badge}> 3 </span>
         </button>
     );
 }

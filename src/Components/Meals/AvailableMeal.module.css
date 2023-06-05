@@ -1,0 +1,44 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .item{
+    padding: 0.7rem;
+    margin-top: -1rem;
+  }
+
+  .name{
+    margin-bottom: -0.6rem;
+    font-size: x-large;
+  }
+
+  .price{
+    margin-top: -0.6rem;
+    color: rgb(133, 34, 34);
+    font-size: large;
+  }
+  .description{
+    color: rgb(1, 1, 61);
+  }
+
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
