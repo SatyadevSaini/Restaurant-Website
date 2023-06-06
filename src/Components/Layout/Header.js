@@ -9,7 +9,7 @@ import HeaderCardButton from "./HeaderCardButton";
           <Fragment>
               <header className={Classes.header}>
                 <h1>ReactMeals</h1>
-                <HeaderCardButton/>
+                <HeaderCardButton onClick ={props.showCartHandler}/>
               </header>
               <div>
                 <img src={HeaderImage} alt="Food is Amazing !" className={Classes["main-image"]} />
