@@ -11,9 +11,19 @@
     padding: 0;
   }
 
+  .first{
+    margin-right: 35vw;
+  }
+
+  .sec{
+    margin-top: 3.5rem;
+  }
+
   .item{
-    padding: 0.7rem;
-    margin-top: -1rem;
+  display: flex;
+  
+    /* padding: 0.7rem;
+    margin-top: -1rem; */
   }
 
   .name{
